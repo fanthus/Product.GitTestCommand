@@ -15,9 +15,8 @@ class ViewController: UIViewController {
         let rect: CGRect = CGRectMake(1,5,20,20)
         let label:UILabel = UILabel(frame:rect)
         
-        view.addSubView(label)
-        
-        // Do any additional setup after loading the view, typically from a nib.
+        var may = 5
+    
     }
 
     override func didReceiveMemoryWarning() {
